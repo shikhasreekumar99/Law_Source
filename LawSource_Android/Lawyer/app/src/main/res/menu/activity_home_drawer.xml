@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+   <!-- <group android:checkableBehavior="single"
+        >-->
+
+    <group android:id="@+id/dashboardgroup"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/clints"
+            android:title="View Clients"
+
+            />
+    </group>
+    <group android:id="@+id/productgroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/product"
+            android:icon="@drawable/newapp"
+            android:title="New Client Appoinments" />
+    </group>
+    <group android:id="@+id/payoutgroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/clints"
+            android:title="Chat with Client" />
+    </group>
+    <group android:id="@+id/ordersgroup"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/qwe"
+            android:title="Update Case Status"
+
+            />
+    </group>
+    <group android:id="@+id/paymentgroup"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/pay"
+            android:title="View Payment Status"
+
+            />
+    </group>
+
+    <group android:id="@+id/cartgroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/users"
+            android:title="My Profile" />
+    </group>
+
+    <!--<group android:id="@+id/payoutgroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/payout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Payout" />
+    </group>-->
+  <!--  <group android:id="@+id/billdetgroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_billdetails"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Bill Details" />
+    </group>-->
+    <!--<group android:id="@+id/sharegroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/refer"
+            android:icon="@drawable/qwe"
+            android:title="My case History" />
+    </group>-->
+   <!-- <group android:id="@+id/profilegroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+    </group>-->
+
+    <group android:id="@+id/logoutgroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="LogOut" />
+    </group>
+  <!--  <group android:id="@+id/logoutgroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Logout" />
+    </group>-->
+
+    <!--</group>-->
+
+
+</menu>

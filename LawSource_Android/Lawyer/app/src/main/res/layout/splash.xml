@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/barcouncil"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#aaffffff"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/logo"
+        android:background="@drawable/advocate" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="LAW SOURCE-Lawyers"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp"
+        android:textColor="#fdfcfc"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Track Your Clients and Cases Online" />
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adv. JAYAKRISHNAN R"
+            android:id="@+id/t1"
+            android:textColor="#123456"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t2"
+            android:text="R.B.Towers,East of District Court,Vanchiyoor TVPM"
+            android:textColor="#511256"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number:9947085553"
+            android:id="@+id/t3"
+            android:layout_gravity="center"
+            android:textColor="#511256"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/call"
+
+            android:layout_marginLeft="30dp"
+            android:gravity="right"
+            android:background="@drawable/imag"/>
+        </LinearLayout>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="View More..."
+            android:visibility="visible"
+            android:id="@+id/vm"
+            android:layout_marginRight="20dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vm3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/t4"
+                android:text="E-mail:asdf@gmail.com"
+                android:textColor="#511256"
+
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fees:Rs.2500/-"
+                android:id="@+id/t5"
+
+                android:textColor="#511256"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="View Less..."
+                android:layout_gravity="left"
+                android:id="@+id/vm4"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"/>-->
+
+               <!-- <RatingBar
+                    android:layout_below="@+id/rate_me"
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:stepSize="0.5" />-->
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Request Appoinment"
+                android:id="@+id/vm5"
+                android:layout_marginRight="20dp"
+                android:textSize="16sp"
+                android:textColor="#cf0f25"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

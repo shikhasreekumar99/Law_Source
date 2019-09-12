@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#aaffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Funding Dispute Case"
+                android:id="@+id/q1"
+                android:textColor="#123456"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Rate Lawyer"
+                android:layout_gravity="left"
+                android:id="@+id/vm4"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"/>
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                />
+           <!-- <EditText
+                android:id="@+id/feed"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="Discuss up to 140 characters"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences"
+                android:lines="2"
+                android:maxLength="140"
+                android:paddingBottom="10dp"
+                android:singleLine="false" />-->
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="View Less..."
+                android:layout_gravity="left"
+                android:id="@+id/vm4"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"/>-->
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@color/colorPrimary"
+                android:text="Submit"
+                android:id="@+id/ipsubmitButton"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

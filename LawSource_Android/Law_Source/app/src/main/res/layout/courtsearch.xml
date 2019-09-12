@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdfqw"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#aaffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Your District or Court Name to Find the Courts"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#123456"/>
+<AutoCompleteTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/autoCompleteTextView"
+    android:hint="Type the District or court name Here"/>
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/list1"></ListView>
+</LinearLayout>
+</LinearLayout>

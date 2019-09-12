@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+   android:gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/ca">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#aaffffff">
+    <EditText
+         android:id="@+id/ipaddressET"
+         android:layout_width="250dp"
+          android:gravity="center"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+
+                android:hint="Set IP" />
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           
+            android:gravity="center" >
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="@color/colorAccent"
+                android:text="Submit"
+                 android:id="@+id/ipsubmitButton"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+    </LinearLayout>
+        </LinearLayout>
+    
+
+</LinearLayout>

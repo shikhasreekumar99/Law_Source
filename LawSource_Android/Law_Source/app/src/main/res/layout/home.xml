@@ -1,0 +1,236 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+             >
+            <ViewFlipper
+                android:id="@+id/flipper1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:flipInterval="2000"
+                android:inAnimation="@anim/slide_in_right"
+                android:outAnimation="@anim/slide_out_left"
+                >
+
+
+                <ImageView
+                    android:src="@drawable/ca"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+                <ImageView
+                    android:src="@drawable/cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+                <!--<ImageView
+                    android:src="@drawable/ca"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+                <ImageView
+                    android:src="@drawable/ca"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+                <ImageView
+                    android:src="@drawable/cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />-->
+
+            </ViewFlipper>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+
+            android:elevation="0dp"
+
+            android:paddingBottom="24dp">
+            <!--  <ImageView
+                      android:id="@+id/add_friend"
+                      android:layout_width="30dp"
+                      android:layout_height="30dp"
+                      android:layout_marginLeft="16dp"
+                      android:layout_marginTop="16dp"
+                      android:layout_toLeftOf="@+id/drop_down_option_menu"
+                      android:src="@drawable/app" />
+                  <ImageView
+                      android:id="@+id/drop_down_option_menu"
+                      android:layout_width="30dp"
+                      android:layout_height="30dp"
+                      android:layout_alignParentRight="true"
+                      android:layout_marginLeft="16dp"
+                      android:layout_marginTop="16dp"
+                      android:src="@drawable/app" />-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/colorPrimary">
+                <TextView
+                    android:id="@+id/user_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Law Source -Clients"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/user_profile_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="New Notifications"
+                    android:gravity="center_vertical"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <ListView
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/list1"></ListView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_layout"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/asdfqw"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#aaffffff"
+                        android:layout_height="fill_parent">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="E-Court at your Finger Tip"
+                            android:textColor="#963f10"
+                            android:layout_gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textSize="22dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Our Services"
+                            android:textColor="#ffffff"
+
+                            android:textStyle="italic"
+                            android:textSize="22dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="♦ Search IPC Laws\n♦ Search Courts\n♦ Search Lawyers\n♦ Pay Lawyers\n♦ Your Case History"
+                                android:layout_gravity="center_vertical"
+                                android:textStyle="normal"
+                                android:textSize="18dp"
+                                android:textColor="#460f61"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="0.3"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/ipc"/>
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="0.3"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/advocate"/>
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="0.3"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/aa"/>
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_weight="0.3"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/unnamed"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:text="“It shall be the duty of every citizen of INDIA to develop the scientific temper, humanism and the spirit of inquiry and reform”.
+Article 51A(h) in The Constitution of India"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#380101"/>
+
+        </LinearLayout>
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

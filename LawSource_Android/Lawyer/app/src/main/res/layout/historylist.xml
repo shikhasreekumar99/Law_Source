@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#aaffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Funding Dispute Case"
+                android:id="@+id/q1"
+                android:textColor="#123456"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Case Type :Civil"
+                android:id="@+id/q2"
+                android:textColor="#511256"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Client Name:Nandu"
+                android:id="@+id/q3"
+                android:layout_gravity="center"
+                android:textColor="#511256"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+         <!--   <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="View More..."
+
+                android:visibility="visible"
+                android:id="@+id/vm"
+                android:layout_marginRight="20dp"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vm3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/q4"
+                    android:text="Case Description:Case under Consideration of Trivandrum Judicial Court Case No:11225/2017"
+
+
+                    android:textColor="#511256"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/q5"
+                    android:text="Current Status:Case Accepted"
+                    android:textColor="#511256"
+
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/q6"
+                    android:text="Payment Status:Paid"
+                    android:textColor="#511256"
+
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/sub"
+                    android:visibility="invisible"
+                    android:text="Update Status"/>
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="View Less..."
+                    android:layout_gravity="left"
+                    android:id="@+id/vm4"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="italic"/>-->
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

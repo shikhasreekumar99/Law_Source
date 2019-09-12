@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/asdfqw"
+    android:orientation="vertical">
+
+ <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	 android:background="#aaffffff"
+	 android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_gravity="center"
+		>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">  
+   <TextView 
+       android:layout_width="0dp"
+    	android:layout_height="50dp"
+    	android:layout_weight="1"
+    	android:layout_marginLeft="20dp"
+    	android:text="Type Your Feedback"
+    	android:textStyle="bold"
+                android:textSize="18sp"
+       />
+   
+</LinearLayout>
+
+<EditText
+        android:id="@+id/etTweetReview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Discuss up to 140 characters"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:lines="2"
+        android:maxLength="140"
+        android:paddingBottom="10dp"
+        android:singleLine="false" />
+
+<Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+               android:background="@color/colorAccent"
+                android:text="Send"
+                android:id="@+id/sendid"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+
+
+
+</LinearLayout>
+</LinearLayout>
+
+</ScrollView>

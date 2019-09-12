@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerala High Court"
+            android:id="@+id/t1"
+            android:textColor="#123456"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kochi,Kerala"
+            android:id="@+id/t2"
+            android:textColor="#511256"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Number:9947085553"
+                android:id="@+id/t3"
+                android:layout_gravity="center"
+                android:textColor="#511256"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/call"
+
+              android:layout_marginLeft="30dp"
+android:gravity="right"
+                android:background="@drawable/imag"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
